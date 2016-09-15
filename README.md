@@ -1,6 +1,7 @@
 # goEuro
 Demo app
 Brief explanation
+Note: I had developed demo Using XCode 7.3 and tested on iOS 9. App is supposed to suooprt iOS 7 onwards but tested only on iOS 9.3.5
 
 1. I had created the project in Objective-C and used Swift classes
 2. Created own class in Swift to handle we request/response instead of using a library like AFNetworking
@@ -20,3 +21,5 @@ App Flow
 1. On launch app displayes the data 
 2. User can switch tab to see different transport mode (Bus, Train, Flights)
 3. User can sort the list by tapping on the sorting icon on header
+
+Note: I had developed demo Using XCode 7.3 and tested on iOS 9. App is supposed to suooprt iOS 7 onwards but tested only on iOS 9.3.5
