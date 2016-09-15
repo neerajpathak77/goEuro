@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCc-Q0-Yf0">
+                                <rect key="frame" x="30" y="200" width="540" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="VCo-iK-a7f">
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="200"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="VCo-iK-a7f" firstAttribute="leading" secondItem="fCc-Q0-Yf0" secondAttribute="leading" id="080-Qf-Fyw"/>
+                                    <constraint firstAttribute="bottom" secondItem="VCo-iK-a7f" secondAttribute="bottom" id="12J-Oc-bgw"/>
+                                    <constraint firstItem="VCo-iK-a7f" firstAttribute="top" secondItem="fCc-Q0-Yf0" secondAttribute="top" id="93n-ye-ahd"/>
+                                    <constraint firstAttribute="height" constant="200" id="LuY-lk-HZ7"/>
+                                    <constraint firstAttribute="trailing" secondItem="VCo-iK-a7f" secondAttribute="trailing" id="kvk-qk-H2i"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fCc-Q0-Yf0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6ry-1Y-ekZ"/>
+                            <constraint firstItem="fCc-Q0-Yf0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KHC-tp-gsU"/>
+                            <constraint firstAttribute="trailing" secondItem="fCc-Q0-Yf0" secondAttribute="trailing" constant="30" id="vu2-Nf-p3D"/>
+                            <constraint firstItem="fCc-Q0-Yf0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="30" id="xnC-OI-CKx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchIcon" width="214" height="44"/>
+    </resources>
+</document>
